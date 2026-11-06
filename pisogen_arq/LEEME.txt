@@ -1,0 +1,18 @@
+PisoGen ARQ v2026.1.0 para INGETRAZO
+Generador de pisos con veinte composiciones, juntas, bisel, texturas y cantidades.
+© 2026 Alfonso Rodríguez. Probado en INGETRAZO 0.5.11 para Windows.
+Software libre y gratuito, sin garantía, bajo la licencia GPL-3.0-or-later (archivo LICENSE).
+
+INSTALAR
+1. En INGETRAZO, abre Extensiones > Abrir carpeta de extensiones.
+2. Copia ahí la carpeta pisogen_arq que viene en el ZIP.
+   Debe quedar plugins\pisogen_arq\__init__.py, sin otra carpeta de por medio.
+3. Cierra INGETRAZO y vuelve a abrirlo. Si sigue en ejecución, termina el proceso.
+4. Abre el panel en Extensiones > PisoGen ARQ > Panel PisoGen ARQ.
+
+ACTUALIZAR
+Cierra INGETRAZO, borra la carpeta pisogen_arq anterior y copia la nueva.
+Los presets y el catálogo se guardan fuera de esta carpeta y se conservan.
+
+DESINSTALAR
+Extensiones > Gestionar extensiones > Instaladas > pisogen_arq > Desinstalar.
