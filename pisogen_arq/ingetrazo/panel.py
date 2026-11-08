@@ -735,9 +735,12 @@ class Panel(QScrollArea):
         if not os.path.exists(info['path']):
             self.message('No hay archivo de catálogo que abrir.')
             return
-        import subprocess
-        # Notepad, as the SketchUp version opens it; nothing of IngeTrazo's open files is inherited.
-        subprocess.Popen(['notepad.exe', info['path']], close_fds=True)  # noqa: S603,S607
+        from PySide6.QtCore import QUrl
+        from PySide6.QtGui import QDesktopServices
+        # The system's own editor for the file, on Windows, macOS and Linux alike.
+        if not QDesktopServices.openUrl(QUrl.fromLocalFile(info['path'])):
+            self.message('No se pudo abrir el catálogo: ' + info['path'])
+            return
         self.message('Catálogo abierto. Al terminar de editarlo, guárdalo y pulsa Recargar.')
 
     def reload_catalog(self):
