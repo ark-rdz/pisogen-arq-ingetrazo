@@ -118,7 +118,7 @@ def documents_dir():
             folder = winreg.QueryValueEx(key, 'Personal')[0]
             if folder and os.path.isdir(folder):
                 return folder
-    except OSError:
+    except (ImportError, OSError):   # no winreg outside Windows
         pass
     return os.path.join(os.path.expanduser('~'), 'Documents')
 
