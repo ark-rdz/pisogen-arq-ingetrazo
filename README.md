@@ -19,7 +19,7 @@ Probado en INGETRAZO 0.5.11 para Windows.
 
 Desde INGETRAZO: **Extensiones › Gestionar extensiones › Explorar › PisoGen ARQ › Instalar**.
 
-A mano: descarga [`pisogen_arq-2026.1.0.zip`](descarga/pisogen_arq-2026.1.0.zip), abre **Extensiones › Abrir carpeta de extensiones**, copia ahí la carpeta `pisogen_arq` y reinicia INGETRAZO. El panel está en **Extensiones › PisoGen ARQ › Panel PisoGen ARQ**.
+A mano: descarga [`pisogen_arq-2026.1.1.zip`](descarga/pisogen_arq-2026.1.1.zip), abre **Extensiones › Abrir carpeta de extensiones**, copia ahí la carpeta `pisogen_arq` y reinicia INGETRAZO. El panel está en **Extensiones › PisoGen ARQ › Panel PisoGen ARQ**.
 
 ## Manual
 

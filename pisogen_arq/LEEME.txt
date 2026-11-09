@@ -1,4 +1,4 @@
-PisoGen ARQ v2026.1.0 para INGETRAZO
+PisoGen ARQ v2026.1.1 para INGETRAZO
 Generador de pisos con veinte composiciones, juntas, bisel, texturas y cantidades.
 © 2026 Alfonso Rodríguez. Probado en INGETRAZO 0.5.11 para Windows.
 Software libre y gratuito, sin garantía, bajo la licencia GPL-3.0-or-later (archivo LICENSE).

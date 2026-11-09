@@ -20,7 +20,7 @@ from ..core import bevel, paving
 from . import geometry, store, texture
 
 KEY = 'pisogen_arq'
-VERSION = '2026.1.0'
+VERSION = '2026.1.1'
 NAMES = {
     'wood': 'Madera', 'brick': 'Ladrillo', 'tile': 'Loseta', 'strip': 'Cintilla', 'pinwheel': 'Tweed',
     'hopscotch_1': 'Hopscotch 1', 'hopscotch_2': 'Hopscotch 2', 'hopscotch_3': 'Hopscotch 3', 'hopscotch_4': 'Hopscotch 4',
